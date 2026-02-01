@@ -168,7 +168,7 @@ def analyze_resume_data(data_pool: Dict) -> ArtifactPack:
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.0-flash-lite",
         temperature=0,
-        api_key=os.getenv("GOOGLE_GENAI_API_KEY"),
+        api_key="AIzaSyDZqc2Dgqi2dFbLuA1eJSzvfvS7SXij-fQ",
     )
     llm_structured = llm.with_structured_output(ArtifactPack)
     message = [

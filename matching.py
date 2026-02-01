@@ -213,7 +213,9 @@ def generate_ai_match_reasoning(
     Use LLM to generate detailed match reasoning
     """
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash-exp", temperature=0, google_api_key=os.getenv("GOOGLE_GENAI_API_KEY")
+        model="gemini-2.0-flash-exp",
+        temperature=0,
+        google_api_key="AIzaSyDZqc2Dgqi2dFbLuA1eJSzvfvS7SXij-fQ",
     )
 
     prompt = f"""Analyze this job match and provide a brief 2-3 sentence reasoning for why this is a good or poor match.
@@ -271,7 +273,8 @@ async def match_jobs_with_ai(
     # 3. Initialize embeddings
     print("Initializing embeddings...")
     embeddings = GoogleGenerativeAIEmbeddings(
-        model="models/embedding-001", google_api_key=os.getenv("GOOGLE_GENAI_API_KEY")
+        model="models/embedding-001",
+        google_api_key="AIzaSyDZqc2Dgqi2dFbLuA1eJSzvfvS7SXij-fQ",
     )
 
     # 4. Create vector store from jobs
