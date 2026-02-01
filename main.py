@@ -43,12 +43,14 @@ async def root():
         "status": "OK",
     }
 
+
 @app.post("/analyze", response_model=ArtifactPack)
 async def analyze_resume(
     resume: UploadFile = File(..., description="Resume PDF file"),
     github_username: Optional[str] = Form(None, description="GitHub username"),
     portfolio_url: Optional[str] = Form(None, description="Portfolio website URL"),
     linkedin_text: Optional[str] = Form(None, description="LinkedIn profile text"),
+    gemini_api_key: str = Form(..., description="Google Gemini API Key")
 ):
     if not resume.filename.endswith(".pdf"):
         raise HTTPException(status_code=400, detail="Only PDF files are supported")
@@ -84,12 +86,13 @@ async def analyze_resume(
             project_links=[],
         )
 
-        result = analyze_resume_data(data_pool)
+        result = analyze_resume_data(data_pool, gemini_api_key)
 
         return result
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error analyzing resume: {str(e)}")
+
 
 @app.post("/extract-text")
 async def extract_text_from_resume(
@@ -140,6 +143,7 @@ async def match_jobs_with_ai_endpoint(
     min_similarity: Optional[float] = Form(
         0.3, description="Minimum similarity threshold (0-1)"
     ),
+    api_key: str = Form(..., description="Google Gemini API Key"),
     jobs_file: Optional[str] = Form("jobs.json", description="Path to jobs.json file"),
 ):
     try:
@@ -157,6 +161,7 @@ async def match_jobs_with_ai_endpoint(
             artifact_pack=artifact_obj,
             jobs_file_path=jobs_file,
             top_k=top_k,
+            api_key=api_key,
             min_similarity=min_similarity,
         )
 
