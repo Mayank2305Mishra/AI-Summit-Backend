@@ -8,3 +8,6 @@ langchain==1.2.7
 langchain-google-genai==4.2.0
 pydantic==2.12.3
 python-multipart==0.0.20
+langchain-text-splitters
+langchain_community
+faiss-cpu
