@@ -7,8 +7,10 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
+import os
+from dotenv import load_dotenv
 from langchain_community.docstore.in_memory import InMemoryDocstore
-
+load_dotenv()
 
 class JobMatch(BaseModel):
     """Job match result with AI-powered scoring"""
@@ -215,7 +217,7 @@ def generate_ai_match_reasoning(
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.0-flash-exp",
         temperature=0,
-        google_api_key="AIzaSyDZqc2Dgqi2dFbLuA1eJSzvfvS7SXij-fQ",
+        google_api_key=os.getenv("GEMINI_API_KEY"),
     )
 
     prompt = f"""Analyze this job match and provide a brief 2-3 sentence reasoning for why this is a good or poor match.
@@ -274,7 +276,7 @@ async def match_jobs_with_ai(
     print("Initializing embeddings...")
     embeddings = GoogleGenerativeAIEmbeddings(
         model="models/embedding-001",
-        google_api_key="AIzaSyDZqc2Dgqi2dFbLuA1eJSzvfvS7SXij-fQ",
+        google_api_key=os.getenv("GEMINI_API_KEY"),
     )
 
     # 4. Create vector store from jobs
