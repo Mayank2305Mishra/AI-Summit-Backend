@@ -1,0 +1,2002 @@
+[
+    {
+        "job_id": "job_001",
+        "title": "AI Engineer Intern",
+        "company": "Nimbus Labs",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "Machine Learning"
+        ],
+        "description": "Work on prototype ML models and assist in model evaluation for production-ready systems.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_001"
+    },
+    {
+        "job_id": "job_002",
+        "title": "Machine Learning Intern",
+        "company": "Astra Forge",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Python",
+            "scikit-learn",
+            "Data Analysis",
+            "Pandas"
+        ],
+        "description": "Support ML pipeline development and run experiments on tabular datasets.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_002"
+    },
+    {
+        "job_id": "job_003",
+        "title": "Full Stack Developer Intern",
+        "company": "BluePeak Solutions",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "React",
+            "Node.js",
+            "REST APIs",
+            "CSS"
+        ],
+        "description": "Build UI features and connect them to backend services in a small product team.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_003"
+    },
+    {
+        "job_id": "job_004",
+        "title": "Backend Developer Intern",
+        "company": "QuantaFlow",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Python",
+            "Django",
+            "PostgreSQL",
+            "REST APIs"
+        ],
+        "description": "Implement backend features and help optimize database queries.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_004"
+    },
+    {
+        "job_id": "job_005",
+        "title": "UX Designer Intern",
+        "company": "Lumen Interactive",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Mumbai, India",
+        "requirements": [
+            "Figma",
+            "User Research",
+            "Wireframing",
+            "Prototyping"
+        ],
+        "description": "Conduct user research and create wireframes for mobile and web flows.",
+        "apply_type": "manual",
+        "automation_allowed": false,
+        "application_flow": "external",
+        "url": "https://sandbox.api/jobs/job_005"
+    },
+    {
+        "job_id": "job_006",
+        "title": "Data Analyst Intern",
+        "company": "MetricWave",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "SQL",
+            "Excel",
+            "Python",
+            "Data Visualization"
+        ],
+        "description": "Analyze product metrics and generate dashboards for stakeholders.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_006"
+    },
+    {
+        "job_id": "job_007",
+        "title": "Product Operations Intern",
+        "company": "Orbit Labs",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Project Management",
+            "JIRA",
+            "Documentation",
+            "Communication"
+        ],
+        "description": "Support product operations and maintain release documentation.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_007"
+    },
+    {
+        "job_id": "job_008",
+        "title": "DevOps Intern",
+        "company": "CloudHarbor",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Docker",
+            "Kubernetes",
+            "CI/CD",
+            "Linux"
+        ],
+        "description": "Assist in infrastructure automation and deployment pipelines.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_008"
+    },
+    {
+        "job_id": "job_009",
+        "title": "NLP Intern",
+        "company": "LexiTech",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Python",
+            "NLP",
+            "Transformers",
+            "spaCy"
+        ],
+        "description": "Develop NLP pipelines for text classification and information extraction.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_009"
+    },
+    {
+        "job_id": "job_010",
+        "title": "MLOps Intern",
+        "company": "ModelStream",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "CI/CD",
+            "Terraform",
+            "Docker",
+            "MLflow"
+        ],
+        "description": "Work on model deployment automation and monitoring tools.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_010"
+    },
+    {
+        "job_id": "job_011",
+        "title": "Data Engineer Intern",
+        "company": "Streamline Data",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "SQL",
+            "ETL",
+            "Python",
+            "Airflow"
+        ],
+        "description": "Build and maintain ETL pipelines for analytics and ML use-cases.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_011"
+    },
+    {
+        "job_id": "job_012",
+        "title": "Quant Research Intern",
+        "company": "Cerulean Capital",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Probability",
+            "Statistics",
+            "Python",
+            "Time Series"
+        ],
+        "description": "Assist quant researchers in building and backtesting trading strategies.",
+        "apply_type": "test_based",
+        "automation_allowed": false,
+        "application_flow": "assessment",
+        "url": "https://sandbox.api/jobs/job_012"
+    },
+    {
+        "job_id": "job_013",
+        "title": "Frontend Developer Intern",
+        "company": "PixelRiver",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Mumbai, India",
+        "requirements": [
+            "React",
+            "TypeScript",
+            "HTML",
+            "CSS"
+        ],
+        "description": "Create responsive interfaces and reusable UI components.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_013"
+    },
+    {
+        "job_id": "job_014",
+        "title": "Software Test Engineer Intern",
+        "company": "GuardRail QA",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Selenium",
+            "Python",
+            "Test Automation",
+            "Git"
+        ],
+        "description": "Develop automated test suites and help maintain CI test coverage.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_014"
+    },
+    {
+        "job_id": "job_015",
+        "title": "Research Intern (AI Ethics)",
+        "company": "EthosAI",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "AI Ethics",
+            "Research",
+            "Writing",
+            "Critical Thinking"
+        ],
+        "description": "Support research on fairness and transparency in ML systems.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_015"
+    },
+    {
+        "job_id": "job_016",
+        "title": "AI Product Intern",
+        "company": "Nova Grid",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Roadmapping",
+            "Data Analysis",
+            "SQL",
+            "Stakeholder Communication"
+        ],
+        "description": "Help define product requirements and coordinate with engineering teams.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_016"
+    },
+    {
+        "job_id": "job_017",
+        "title": "Data Science Intern",
+        "company": "Insight Harbor",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Mumbai, India",
+        "requirements": [
+            "Python",
+            "Pandas",
+            "Machine Learning",
+            "Visualization"
+        ],
+        "description": "Run analyses and build baseline models for customer segmentation.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_017"
+    },
+    {
+        "job_id": "job_018",
+        "title": "Technical Writer Intern",
+        "company": "DocuMint",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Technical Writing",
+            "Markdown",
+            "APIs",
+            "Communication"
+        ],
+        "description": "Write and edit developer docs and integration guides.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_018"
+    },
+    {
+        "job_id": "job_019",
+        "title": "Business Analyst Intern",
+        "company": "PulseMetrics",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Excel",
+            "SQL",
+            "Data Interpretation",
+            "Reporting"
+        ],
+        "description": "Support business teams with insights and operational reporting.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_019"
+    },
+    {
+        "job_id": "job_020",
+        "title": "Cybersecurity Analyst Intern",
+        "company": "SentinelWorks",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Network Security",
+            "Incident Response",
+            "Linux",
+            "Threat Analysis"
+        ],
+        "description": "Assist in threat monitoring and security incident investigations.",
+        "apply_type": "manual",
+        "automation_allowed": false,
+        "application_flow": "external",
+        "url": "https://sandbox.api/jobs/job_020"
+    },
+    {
+        "job_id": "job_021",
+        "title": "Marketing Intern",
+        "company": "EchoWave",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Content Creation",
+            "Social Media",
+            "Analytics",
+            "Communication"
+        ],
+        "description": "Create marketing content and help run social campaigns.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_021"
+    },
+    {
+        "job_id": "job_022",
+        "title": "Customer Success Intern",
+        "company": "SupportLane",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Communication",
+            "CRM",
+            "Customer Support",
+            "Problem Solving"
+        ],
+        "description": "Handle onboarding tasks and customer queries for enterprise clients.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_022"
+    },
+    {
+        "job_id": "job_023",
+        "title": "Growth Analyst Intern",
+        "company": "ScaleForge",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "A/B Testing",
+            "SQL",
+            "Analytics",
+            "Excel"
+        ],
+        "description": "Run growth experiments and analyze channel performance.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_023"
+    },
+    {
+        "job_id": "job_024",
+        "title": "Illustration Intern",
+        "company": "CanvasCraft",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Mumbai, India",
+        "requirements": [
+            "Illustrator",
+            "Sketching",
+            "Creativity",
+            "Adobe Suite"
+        ],
+        "description": "Create illustrations for web and marketing materials.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_024"
+    },
+    {
+        "job_id": "job_025",
+        "title": "HR Operations Intern",
+        "company": "PeopleFlow",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "HRIS",
+            "Onboarding",
+            "Communication",
+            "Excel"
+        ],
+        "description": "Assist HR team with onboarding and HR operations tasks.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_025"
+    },
+    {
+        "job_id": "job_026",
+        "title": "Sales Intern",
+        "company": "BridgePoint",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Prospecting",
+            "CRM",
+            "Communication",
+            "Presentation"
+        ],
+        "description": "Support sales outreach and qualify inbound leads.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_026"
+    },
+    {
+        "job_id": "job_027",
+        "title": "Research Intern (Computer Vision)",
+        "company": "VisiCore",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Python",
+            "OpenCV",
+            "Deep Learning",
+            "PyTorch"
+        ],
+        "description": "Experiment with vision models and improve detection pipelines.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_027"
+    },
+    {
+        "job_id": "job_028",
+        "title": "Growth Marketing Intern",
+        "company": "EuroScale",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Berlin, Germany",
+        "requirements": [
+            "SEO",
+            "Content",
+            "Analytics",
+            "Copywriting"
+        ],
+        "description": "Support organic growth initiatives and European market expansion.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_028"
+    },
+    {
+        "job_id": "job_029",
+        "title": "Mobile Developer Intern",
+        "company": "PocketLabs",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Flutter",
+            "Dart",
+            "Android",
+            "iOS"
+        ],
+        "description": "Implement mobile features and collaborate on app improvements.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_029"
+    },
+    {
+        "job_id": "job_030",
+        "title": "Quality Assurance Intern",
+        "company": "TestNest",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Manual Testing",
+            "Bug Tracking",
+            "Communication",
+            "Test Cases"
+        ],
+        "description": "Perform manual QA and report defects across product modules.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_030"
+    },
+    {
+        "job_id": "job_031",
+        "title": "Frontend Engineer Intern",
+        "company": "Aurora Apps",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Vue.js",
+            "JavaScript",
+            "CSS",
+            "REST APIs"
+        ],
+        "description": "Build client-side features and maintain code quality.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_031"
+    },
+    {
+        "job_id": "job_032",
+        "title": "AI Research Intern",
+        "company": "Pioneer Intelligence",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Research",
+            "Python",
+            "Papers Reading",
+            "PyTorch"
+        ],
+        "description": "Contribute to research projects and write technical reports.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_032"
+    },
+    {
+        "job_id": "job_033",
+        "title": "Game Developer Intern",
+        "company": "Neon Forge Games",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Mumbai, India",
+        "requirements": [
+            "Unity",
+            "C#",
+            "Game Design",
+            "3D Math"
+        ],
+        "description": "Help prototype gameplay systems and implement interactive features.",
+        "apply_type": "manual",
+        "automation_allowed": false,
+        "application_flow": "external",
+        "url": "https://sandbox.api/jobs/job_033"
+    },
+    {
+        "job_id": "job_034",
+        "title": "Analytics Engineer Intern",
+        "company": "DataCrest",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "dbt",
+            "SQL",
+            "Data Modeling",
+            "Airflow"
+        ],
+        "description": "Build analytics models and maintain transformation pipelines.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_034"
+    },
+    {
+        "job_id": "job_035",
+        "title": "Platform Engineer Intern",
+        "company": "Helix Systems",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Go",
+            "Kubernetes",
+            "Cloud",
+            "Linux"
+        ],
+        "description": "Work on infrastructure components and platform reliability.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_035"
+    },
+    {
+        "job_id": "job_036",
+        "title": "AI Ops Intern",
+        "company": "SignalPeak",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Monitoring",
+            "Python",
+            "SRE Concepts",
+            "AWS"
+        ],
+        "description": "Maintain observability and runbooks for AI services.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_036"
+    },
+    {
+        "job_id": "job_037",
+        "title": "Data Visualization Intern",
+        "company": "Chartable Labs",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "D3.js",
+            "JavaScript",
+            "Design",
+            "Data Analysis"
+        ],
+        "description": "Create interactive visualizations for user dashboards.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_037"
+    },
+    {
+        "job_id": "job_038",
+        "title": "Cloud Engineer Intern",
+        "company": "NimbusOps",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "AWS",
+            "CloudFormation",
+            "Networking",
+            "Linux"
+        ],
+        "description": "Help maintain cloud infrastructure and cost optimization.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_038"
+    },
+    {
+        "job_id": "job_039",
+        "title": "Computer Vision Intern",
+        "company": "FrameSense",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Python",
+            "OpenCV",
+            "Deep Learning",
+            "PyTorch"
+        ],
+        "description": "Work on image understanding models and dataset curation.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_039"
+    },
+    {
+        "job_id": "job_040",
+        "title": "Business Development Intern",
+        "company": "VentureLink Asia",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Singapore",
+        "requirements": [
+            "Prospecting",
+            "Research",
+            "CRM",
+            "Communication"
+        ],
+        "description": "Support BD activities across Southeast Asia and prepare market analysis.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_040"
+    },
+    {
+        "job_id": "job_041",
+        "title": "Legal Intern",
+        "company": "Cobalt Counsel",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Mumbai, India",
+        "requirements": [
+            "Legal Research",
+            "Contracts",
+            "Communication",
+            "Attention to Detail"
+        ],
+        "description": "Assist with contract review and legal research for corporate matters.",
+        "apply_type": "manual",
+        "automation_allowed": false,
+        "application_flow": "external",
+        "url": "https://sandbox.api/jobs/job_041"
+    },
+    {
+        "job_id": "job_042",
+        "title": "Recruiting Intern",
+        "company": "TalentSpring",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Sourcing",
+            "Interview Scheduling",
+            "ATS",
+            "Communication"
+        ],
+        "description": "Support the recruiting team with candidate sourcing and screening.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_042"
+    },
+    {
+        "job_id": "job_043",
+        "title": "Content Strategy Intern",
+        "company": "Narrative Labs",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Content Strategy",
+            "SEO",
+            "Research",
+            "Writing"
+        ],
+        "description": "Help plan and execute content calendars and SEO research.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_043"
+    },
+    {
+        "job_id": "job_044",
+        "title": "Operations Intern",
+        "company": "CoreOps",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Operations",
+            "Process Improvement",
+            "Excel",
+            "Communication"
+        ],
+        "description": "Support operational processes and vendor coordination.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_044"
+    },
+    {
+        "job_id": "job_045",
+        "title": "Graphic Design Intern",
+        "company": "BrandFrame",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Mumbai, India",
+        "requirements": [
+            "Photoshop",
+            "Illustrator",
+            "Layout",
+            "Creativity"
+        ],
+        "description": "Design marketing assets and support brand guidelines.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_045"
+    },
+    {
+        "job_id": "job_046",
+        "title": "Accounting Intern",
+        "company": "LedgerLine",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Accounting",
+            "Excel",
+            "Reconciliation",
+            "Tally"
+        ],
+        "description": "Assist with bookkeeping and monthly reconciliations.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_046"
+    },
+    {
+        "job_id": "job_047",
+        "title": "Social Media Intern",
+        "company": "TrendCrafters",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Social Media",
+            "Copywriting",
+            "Scheduling Tools",
+            "Analytics"
+        ],
+        "description": "Manage posts and engagement for brand social channels.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_047"
+    },
+    {
+        "job_id": "job_048",
+        "title": "Product Marketing Intern",
+        "company": "LaunchPad Americas",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Toronto, Canada",
+        "requirements": [
+            "Go-to-Market",
+            "Positioning",
+            "Research",
+            "Presentation"
+        ],
+        "description": "Support product launches for North American market.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_048"
+    },
+    {
+        "job_id": "job_049",
+        "title": "Technical Support Intern",
+        "company": "HelpGrid",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Troubleshooting",
+            "Customer Support",
+            "Communication",
+            "Ticketing Systems"
+        ],
+        "description": "Provide technical support and triage issues for customers.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_049"
+    },
+    {
+        "job_id": "job_050",
+        "title": "Content Writer Intern",
+        "company": "WordSmiths",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "Writing",
+            "SEO",
+            "Research",
+            "Editing"
+        ],
+        "description": "Write blog posts and help maintain editorial calendar.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_050"
+    },
+    {
+        "job_id": "job_051",
+        "title": "Entry Backend Developer",
+        "company": "CoreAPI",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "REST APIs"
+        ],
+        "description": "Join backend team to implement microservices and APIs.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_051"
+    },
+    {
+        "job_id": "job_052",
+        "title": "Entry Frontend Developer",
+        "company": "UIWorks",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "React",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "description": "Develop customer-facing features and improve UX performance.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_052"
+    },
+    {
+        "job_id": "job_053",
+        "title": "Entry Data Analyst",
+        "company": "InsightBridge",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "SQL",
+            "Python",
+            "Excel",
+            "Data Visualization"
+        ],
+        "description": "Provide actionable insights using company product data.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_053"
+    },
+    {
+        "job_id": "job_054",
+        "title": "Entry DevOps Engineer",
+        "company": "InfraCore",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "CI/CD",
+            "Docker",
+            "AWS",
+            "Scripting"
+        ],
+        "description": "Support deployment workflows and system reliability.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_054"
+    },
+    {
+        "job_id": "job_055",
+        "title": "Security Research Engineer",
+        "company": "CyberShield UK",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "London, UK",
+        "requirements": [
+            "Vulnerability Research",
+            "Linux",
+            "Reverse Engineering",
+            "Networking"
+        ],
+        "description": "Research vulnerabilities and assist in security assessments for European clients.",
+        "apply_type": "manual",
+        "automation_allowed": false,
+        "application_flow": "external",
+        "url": "https://sandbox.api/jobs/job_055"
+    },
+    {
+        "job_id": "job_056",
+        "title": "Entry MLOps Engineer",
+        "company": "DeployAI",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Docker",
+            "Kubernetes",
+            "CI/CD",
+            "MLflow"
+        ],
+        "description": "Implement model deployment pipelines and monitoring.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_056"
+    },
+    {
+        "job_id": "job_057",
+        "title": "Entry Data Engineer",
+        "company": "Pivotal Data",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "SQL",
+            "ETL",
+            "Spark",
+            "Python"
+        ],
+        "description": "Maintain data pipelines and support analytics needs.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_057"
+    },
+    {
+        "job_id": "job_058",
+        "title": "Entry NLP Engineer",
+        "company": "Corpus Labs",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Python",
+            "Transformers",
+            "NLP",
+            "Evaluation Metrics"
+        ],
+        "description": "Improve language understanding models for product features.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_058"
+    },
+    {
+        "job_id": "job_059",
+        "title": "Entry QA Engineer",
+        "company": "AssureTech",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Test Plans",
+            "Automation",
+            "Selenium",
+            "Bug Tracking"
+        ],
+        "description": "Create and maintain automated test suites for backend services.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_059"
+    },
+    {
+        "job_id": "job_060",
+        "title": "Entry Software Engineer",
+        "company": "Gridline Systems",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Java",
+            "Spring",
+            "SQL",
+            "REST APIs"
+        ],
+        "description": "Develop backend services and participate in code reviews.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_060"
+    },
+    {
+        "job_id": "job_061",
+        "title": "Entry Product Analyst",
+        "company": "MetricSpark",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Mumbai, India",
+        "requirements": [
+            "SQL",
+            "Product Metrics",
+            "A/B Testing",
+            "Communication"
+        ],
+        "description": "Analyze product metrics and recommend feature improvements.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_061"
+    },
+    {
+        "job_id": "job_062",
+        "title": "Entry Technical Support Engineer",
+        "company": "NodeAssist",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Troubleshooting",
+            "Linux",
+            "Customer Support",
+            "Scripting"
+        ],
+        "description": "Provide first-line support and escalate complex issues.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_062"
+    },
+    {
+        "job_id": "job_063",
+        "title": "Marketing Associate LATAM",
+        "company": "BrandLift Brasil",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "São Paulo, Brazil",
+        "requirements": [
+            "Campaigns",
+            "Analytics",
+            "Copywriting",
+            "Portuguese"
+        ],
+        "description": "Support marketing campaigns for Latin American expansion.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_063"
+    },
+    {
+        "job_id": "job_064",
+        "title": "Entry Content Strategist",
+        "company": "ContentLoop",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Content Strategy",
+            "Editorial Calendar",
+            "SEO",
+            "Writing"
+        ],
+        "description": "Plan content and align assets to growth goals.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_064"
+    },
+    {
+        "job_id": "job_065",
+        "title": "Entry Operations Associate",
+        "company": "OpsLine",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Process",
+            "SOPs",
+            "Coordination",
+            "Excel"
+        ],
+        "description": "Maintain operations processes and coordinate internal tasks.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_065"
+    },
+    {
+        "job_id": "job_066",
+        "title": "Entry Sales Development Representative",
+        "company": "LeadStream",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Outbound",
+            "CRM",
+            "Email Outreach",
+            "Communication"
+        ],
+        "description": "Drive outbound prospecting and qualify leads for account execs.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_066"
+    },
+    {
+        "job_id": "job_067",
+        "title": "UX Research Intern",
+        "company": "UserBeacon",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Mumbai, India",
+        "requirements": [
+            "User Research",
+            "Interviewing",
+            "Figma",
+            "Analysis"
+        ],
+        "description": "Conduct usability studies and synthesize insights for product teams.",
+        "apply_type": "test_based",
+        "automation_allowed": false,
+        "application_flow": "assessment",
+        "url": "https://sandbox.api/jobs/job_067"
+    },
+    {
+        "job_id": "job_068",
+        "title": "Entry Account Manager",
+        "company": "ClientFirst",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Client Relations",
+            "Communication",
+            "CRM",
+            "Reporting"
+        ],
+        "description": "Manage client relationships and coordinate deliverables.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_068"
+    },
+    {
+        "job_id": "job_069",
+        "title": "Entry Financial Analyst",
+        "company": "AlphaLedger",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Financial Modeling",
+            "Excel",
+            "Reporting",
+            "Analysis"
+        ],
+        "description": "Support financial planning and analysis tasks.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_069"
+    },
+    {
+        "job_id": "job_070",
+        "title": "Entry HR Associate",
+        "company": "PeopleFirst",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Recruiting",
+            "HR Operations",
+            "Communication",
+            "HRIS"
+        ],
+        "description": "Support HR processes and employee lifecycle activities.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_070"
+    },
+    {
+        "job_id": "job_071",
+        "title": "AI Intern (Recommendation)",
+        "company": "RecoWorks",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Python",
+            "Recommender Systems",
+            "Matrix Factorization",
+            "Evaluation"
+        ],
+        "description": "Work on recommendation algorithms and personalization features.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_071"
+    },
+    {
+        "job_id": "job_072",
+        "title": "Cloud Support Engineer",
+        "company": "SkyScale Japan",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Tokyo, Japan",
+        "requirements": [
+            "AWS",
+            "Support",
+            "Networking",
+            "Japanese"
+        ],
+        "description": "Provide cloud support for Japanese and Asia-Pacific enterprise customers.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_072"
+    },
+    {
+        "job_id": "job_073",
+        "title": "Entry Mobile QA Engineer",
+        "company": "AppSure",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Mumbai, India",
+        "requirements": [
+            "Mobile Testing",
+            "Appium",
+            "Bug Reporting",
+            "Automation"
+        ],
+        "description": "Test mobile applications across devices and maintain test suites.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_073"
+    },
+    {
+        "job_id": "job_074",
+        "title": "Entry Data Steward",
+        "company": "ClearData",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Data Governance",
+            "SQL",
+            "Documentation",
+            "Stakeholder Management"
+        ],
+        "description": "Help enforce data standards and maintain data catalogs.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_074"
+    },
+    {
+        "job_id": "job_075",
+        "title": "Entry Systems Engineer",
+        "company": "EdgeWorks",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Linux",
+            "Networking",
+            "Scripting",
+            "Monitoring"
+        ],
+        "description": "Maintain system health and respond to operational alerts.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_075"
+    },
+    {
+        "job_id": "job_076",
+        "title": "Marketing Analyst",
+        "company": "GrowthPulse Australia",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Sydney, Australia",
+        "requirements": [
+            "Analytics",
+            "SQL",
+            "Marketing Metrics",
+            "Reporting"
+        ],
+        "description": "Analyze campaign performance for ANZ and Asia markets.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_076"
+    },
+    {
+        "job_id": "job_077",
+        "title": "Entry Creative Producer",
+        "company": "StudioLane",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Mumbai, India",
+        "requirements": [
+            "Project Management",
+            "Video Production",
+            "Coordination",
+            "Creative Briefs"
+        ],
+        "description": "Coordinate creative production and manage vendor workflows.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_077"
+    },
+    {
+        "job_id": "job_078",
+        "title": "Entry Data Privacy Analyst",
+        "company": "PrivacySafe",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "GDPR",
+            "Data Privacy",
+            "Policy",
+            "Documentation"
+        ],
+        "description": "Support privacy reviews and compliance tracking.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_078"
+    },
+    {
+        "job_id": "job_079",
+        "title": "Entry Research Assistant",
+        "company": "ThinkTank Labs",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Literature Review",
+            "Research",
+            "Writing",
+            "Data Collection"
+        ],
+        "description": "Assist researchers in literature reviews and experiments.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_079"
+    },
+    {
+        "job_id": "job_080",
+        "title": "Entry Events Coordinator",
+        "company": "EventMesh",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Event Planning",
+            "Coordination",
+            "Vendors",
+            "Logistics"
+        ],
+        "description": "Support event logistics and coordination for company events.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_080"
+    },
+    {
+        "job_id": "job_081",
+        "title": "Entry Machine Learning Engineer",
+        "company": "ModelFarm",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Python",
+            "TensorFlow",
+            "Model Training",
+            "Evaluation"
+        ],
+        "description": "Train and evaluate ML models for product features.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_081"
+    },
+    {
+        "job_id": "job_082",
+        "title": "Game Designer Intern",
+        "company": "PixelArcade",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Mumbai, India",
+        "requirements": [
+            "Game Design",
+            "Prototyping",
+            "Level Design",
+            "Playtesting"
+        ],
+        "description": "Design levels and assist with playtesting sessions.",
+        "apply_type": "manual",
+        "automation_allowed": false,
+        "application_flow": "external",
+        "url": "https://sandbox.api/jobs/job_082"
+    },
+    {
+        "job_id": "job_083",
+        "title": "Entry Research Engineer",
+        "company": "LabForge",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Python",
+            "Research",
+            "Experimentation",
+            "Data Analysis"
+        ],
+        "description": "Support research tasks and develop experimental codebases.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_083"
+    },
+    {
+        "job_id": "job_084",
+        "title": "Entry Product Designer",
+        "company": "Crafted UX",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Figma",
+            "Prototyping",
+            "User Testing",
+            "Visual Design"
+        ],
+        "description": "Design product interfaces and run user testing sessions.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_084"
+    },
+    {
+        "job_id": "job_085",
+        "title": "Entry Research Data Analyst",
+        "company": "SurveySense",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "R",
+            "Python",
+            "Statistics",
+            "Data Cleaning"
+        ],
+        "description": "Analyze research datasets and prepare reproducible reports.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_085"
+    },
+    {
+        "job_id": "job_086",
+        "title": "Entry Solutions Engineer",
+        "company": "Integratech",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "APIs",
+            "Demoing",
+            "Integration",
+            "Customer Facing"
+        ],
+        "description": "Support customer integrations and technical demos.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_086"
+    },
+    {
+        "job_id": "job_087",
+        "title": "Entry Localization Specialist",
+        "company": "GlobalTongue",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Localization",
+            "Translation",
+            "Attention to Detail",
+            "Tools"
+        ],
+        "description": "Help localize product copy and ensure cultural accuracy.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_087"
+    },
+    {
+        "job_id": "job_088",
+        "title": "Entry Content Editor",
+        "company": "EditFlow",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Editing",
+            "Proofreading",
+            "AP Style",
+            "Attention to Detail"
+        ],
+        "description": "Edit and proofread content for publication across channels.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_088"
+    },
+    {
+        "job_id": "job_089",
+        "title": "Entry Community Manager",
+        "company": "CommunityCore",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Community Engagement",
+            "Moderation",
+            "Content",
+            "Communication"
+        ],
+        "description": "Grow and moderate the user community and manage events.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_089"
+    },
+    {
+        "job_id": "job_090",
+        "title": "Security Architect Intern",
+        "company": "ShieldWorks",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Security Architecture",
+            "Threat Modeling",
+            "Compliance",
+            "Linux"
+        ],
+        "description": "Assist in designing secure system architectures and threat models.",
+        "apply_type": "test_based",
+        "automation_allowed": false,
+        "application_flow": "assessment",
+        "url": "https://sandbox.api/jobs/job_090"
+    },
+    {
+        "job_id": "job_091",
+        "title": "Entry Data Science Intern",
+        "company": "ModelGrid",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "India",
+        "requirements": [
+            "Python",
+            "Pandas",
+            "scikit-learn",
+            "Visualization"
+        ],
+        "description": "Support model development and data analysis for features.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_091"
+    },
+    {
+        "job_id": "job_092",
+        "title": "Entry Frontend Designer",
+        "company": "SketchLab",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Design Systems",
+            "Figma",
+            "CSS",
+            "Prototyping"
+        ],
+        "description": "Contribute to UI design and component libraries.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_092"
+    },
+    {
+        "job_id": "job_093",
+        "title": "Entry Platform Support",
+        "company": "HostWay",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Support",
+            "Linux",
+            "Monitoring",
+            "Customer Interaction"
+        ],
+        "description": "Provide platform support and triage production issues.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_093"
+    },
+    {
+        "job_id": "job_094",
+        "title": "Entry Research Intern (HCI)",
+        "company": "HumanFirst Labs",
+        "category": "tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Remote",
+        "requirements": [
+            "HCI",
+            "User Studies",
+            "Prototyping",
+            "Data Analysis"
+        ],
+        "description": "Run human-subject studies and analyze interaction data.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_094"
+    },
+    {
+        "job_id": "job_095",
+        "title": "Entry Business Operations",
+        "company": "OpsGrid",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "Operations",
+            "SLA Management",
+            "Reporting",
+            "Coordination"
+        ],
+        "description": "Manage operational KPIs and coordinate cross-functional tasks.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_095"
+    },
+    {
+        "job_id": "job_096",
+        "title": "Game Producer Intern",
+        "company": "StudioArc",
+        "category": "non-tech",
+        "experience_level": "Intern",
+        "employment_type": "Internship",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Production",
+            "Scheduling",
+            "Communication",
+            "Game Pipelines"
+        ],
+        "description": "Coordinate production schedules and cross-discipline teams.",
+        "apply_type": "manual",
+        "automation_allowed": false,
+        "application_flow": "external",
+        "url": "https://sandbox.api/jobs/job_096"
+    },
+    {
+        "job_id": "job_097",
+        "title": "Entry Content Specialist",
+        "company": "ContentGrid",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "Writing",
+            "SEO",
+            "CMS",
+            "Editing"
+        ],
+        "description": "Manage content lifecycle and publish assets across channels.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_097"
+    },
+    {
+        "job_id": "job_098",
+        "title": "Entry Analytics Engineer",
+        "company": "QueryWorks",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "India",
+        "requirements": [
+            "SQL",
+            "dbt",
+            "Data Modeling",
+            "Python"
+        ],
+        "description": "Build analytics models and support BI reporting.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_098"
+    },
+    {
+        "job_id": "job_099",
+        "title": "Entry Product Support",
+        "company": "HelpBridge",
+        "category": "non-tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Bengaluru, India",
+        "requirements": [
+            "Customer Support",
+            "Product Knowledge",
+            "Communication",
+            "Troubleshooting"
+        ],
+        "description": "Assist customers with product issues and escalate complex bugs.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_099"
+    },
+    {
+        "job_id": "job_100",
+        "title": "Entry AI Ethics Researcher",
+        "company": "ParityAI",
+        "category": "tech",
+        "experience_level": "Entry",
+        "employment_type": "Full-Time",
+        "location": "Remote",
+        "requirements": [
+            "AI Ethics",
+            "Research",
+            "Policy",
+            "Data Analysis"
+        ],
+        "description": "Research ethical implications of deployed AI systems and produce guidelines.",
+        "apply_type": "automated",
+        "automation_allowed": true,
+        "application_flow": "api",
+        "url": "https://sandbox.api/jobs/job_100"
+    }
+]
