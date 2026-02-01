@@ -13,6 +13,7 @@ from data_extraction import (
     build_data_pool,
     analyze_resume_data,
 )
+from note import generate_recruiter_notes
 from models import ArtifactPack
 from matching import (
     match_jobs_with_ai,
@@ -289,6 +290,201 @@ async def get_jobs_stats(jobs_file: Optional[str] = "jobs.json"):
         raise HTTPException(status_code=404, detail=f"Jobs file not found: {jobs_file}")
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error loading jobs: {str(e)}")
+
+
+@app.post("/generate-short-notes-from-queue")
+async def generate_short_notes_from_apply_queue(
+    artifact_pack: str = Form(..., description="JSON string of Student artifact pack"),
+    apply_queue: str = Form(..., description="Full JSON output of /match-jobs-ai"),
+    jobs_file: Optional[str] = Form("jobs.json", description="Path to jobs.json file"),
+):
+    """
+    Generate short recruiter notes from apply_queue output
+    (output of /match-jobs-ai).
+    """
+
+    try:
+        # -----------------------------------
+        # Parse ArtifactPack
+        # -----------------------------------
+        try:
+            artifact_data = json.loads(artifact_pack)
+            artifact_obj = ArtifactPack(**artifact_data)
+        except Exception as e:
+            raise HTTPException(
+                status_code=400, detail=f"Invalid ArtifactPack JSON: {str(e)}"
+            )
+
+        # -----------------------------------
+        # Parse apply_queue (FIXED STRUCTURE)
+        # -----------------------------------
+        try:
+            apply_queue_data = json.loads(apply_queue)
+
+            queue = apply_queue_data.get("apply_queue")
+            if not queue:
+                raise ValueError("Missing 'apply_queue' key")
+
+            job_entries = queue.get("jobs", [])
+        except Exception as e:
+            raise HTTPException(
+                status_code=400, detail=f"Invalid apply_queue JSON structure: {str(e)}"
+            )
+
+        if not job_entries:
+            raise HTTPException(
+                status_code=400, detail="apply_queue.apply_queue.jobs is empty"
+            )
+
+        # -----------------------------------
+        # Extract job_ids
+        # -----------------------------------
+        job_ids = []
+        for entry in job_entries:
+            if "job_id" in entry:
+                job_ids.append(entry["job_id"])
+
+        if not job_ids:
+            raise HTTPException(
+                status_code=400, detail="No job_ids found in apply_queue.jobs"
+            )
+
+        # -----------------------------------
+        # Load jobs.json
+        # -----------------------------------
+        all_jobs = load_jobs_from_file(jobs_file)
+
+        selected_jobs = [
+            job
+            for job in all_jobs
+            if job["job_id"] in job_ids and job.get("automation_allowed", False)
+        ]
+
+        if not selected_jobs:
+            raise HTTPException(
+                status_code=404, detail="No automatable jobs found in apply_queue"
+            )
+
+        # -----------------------------------
+        # Generate recruiter notes
+        # -----------------------------------
+        from note import generate_recruiter_notes
+
+        notes = generate_recruiter_notes(
+            artifact=artifact_obj.model_dump(), jobs=selected_jobs
+        )
+
+        # -----------------------------------
+        # Final Response
+        # -----------------------------------
+        return {
+            "status": "success",
+            "input_jobs": len(job_ids),
+            "automatable_jobs": len(selected_jobs),
+            "generated_notes": len(notes),
+            "notes": notes,
+        }
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to generate recruiter notes from apply_queue: {str(e)}",
+        )
+
+
+@app.post("/sandbox-apply-batch")
+async def sandbox_apply_batch(
+    artifact_pack: str = Form(..., description="Student ArtifactPack JSON"),
+    recruiter_notes: str = Form(
+        ..., description="Output JSON from /generate-short-notes-from-queue"
+    ),
+    apply_queue: str = Form(..., description="Output JSON from /match-jobs-ai"),
+):
+    """
+    Final sandbox recruiter simulator.
+    Uses:
+    - student artifacts
+    - recruiter notes (generated earlier)
+    - apply_queue (job matches + scores)
+
+    Returns:
+    list of job_id + signal (success | processing | failure)
+    """
+
+    try:
+        # -----------------------------
+        # Parse inputs
+        # -----------------------------
+        artifact = ArtifactPack(**json.loads(artifact_pack))
+        notes_payload = json.loads(recruiter_notes)
+        queue_payload = json.loads(apply_queue)
+
+        job_entries = queue_payload["apply_queue"]["jobs"]
+        notes_list = notes_payload.get("notes", [])
+
+        # Build job_id -> short_note map
+        notes_map = {n["job_id"]: n["short_note"] for n in notes_list}
+
+        results = []
+
+        # -----------------------------
+        # Process each job entry
+        # -----------------------------
+        for entry in job_entries:
+            job = entry["job"]
+            job_id = job["job_id"]
+
+            # HARD SAFETY GATE
+            if not job.get("automation_allowed", False):
+                results.append({"job_id": job_id, "signal": "failure"})
+                continue
+
+            # -----------------------------
+            # Extract & normalize scores
+            # -----------------------------
+            semantic = entry.get("semantic_similarity", 0) / 100
+            skill = entry.get("skill_match_score", 0) / 100
+            match = entry.get("match_score", 0) / 100
+
+            # Base confidence (reuse Part-2 signals)
+            confidence = 0.40 * semantic + 0.35 * skill + 0.25 * match
+
+            # -----------------------------
+            # Recruiter-note sanity check
+            # -----------------------------
+            note = notes_map.get(job_id, "").lower()
+            matched_terms = sum(
+                1 for req in job.get("requirements", []) if req.lower() in note
+            )
+
+            # Penalize slightly if note is weak
+            if matched_terms == 0:
+                confidence *= 0.85
+
+            confidence = round(confidence, 3)
+
+            # -----------------------------
+            # Decision thresholds
+            # -----------------------------
+            if confidence >= 0.25:
+                signal = "success"
+            elif confidence >= 0.23:
+                signal = "processing"
+            else:
+                signal = "failure"
+
+            results.append(
+                {"job_id": job_id, "signal": signal, "confidence": confidence}
+            )
+
+        return {"status": "success", "total_jobs": len(results), "results": results}
+
+    except Exception as e:
+        raise HTTPException(
+            status_code=500, detail=f"Sandbox batch apply failed: {str(e)}"
+        )
 
 
 if __name__ == "__main__":
