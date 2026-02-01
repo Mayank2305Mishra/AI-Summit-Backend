@@ -136,7 +136,6 @@ async def scrape_portfolio(url: str = Form(..., description="Portfolio URL to sc
 @app.post("/match-jobs-ai")
 async def match_jobs_with_ai_endpoint(
     artifact_pack: str = Form(..., description="JSON string of Student artifact pack"),
-    gemini_api_key: str = Form(..., description="Google Gemini API Key"),
     top_k: Optional[int] = Form(30, description="Number of top matches to return"),
     min_similarity: Optional[float] = Form(
         0.3, description="Minimum similarity threshold (0-1)"
@@ -156,7 +155,6 @@ async def match_jobs_with_ai_endpoint(
         # 2. Use the parsed object in your matching function
         matches = await match_jobs_with_ai(
             artifact_pack=artifact_obj,
-            api_key=gemini_api_key,
             jobs_file_path=jobs_file,
             top_k=top_k,
             min_similarity=min_similarity,

@@ -207,13 +207,13 @@ def get_relevant_bullets_semantic(
 
 
 def generate_ai_match_reasoning(
-    job: Dict, artifact_pack, skill_match: Dict, api_key: str
+    job: Dict, artifact_pack, skill_match: Dict
 ) -> str:
     """
     Use LLM to generate detailed match reasoning
     """
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash-exp", temperature=0, google_api_key=api_key
+        model="gemini-2.0-flash-exp", temperature=0, google_api_key=os.getenv("GOOGLE_GENAI_API_KEY")
     )
 
     prompt = f"""Analyze this job match and provide a brief 2-3 sentence reasoning for why this is a good or poor match.
@@ -242,7 +242,6 @@ Provide concise reasoning (2-3 sentences max) explaining the match quality."""
 
 async def match_jobs_with_ai(
     artifact_pack,
-    api_key: str,
     jobs_file_path: str = "jobs.json",
     top_k: int = 30,
     min_similarity: float = 0.3,
@@ -272,7 +271,7 @@ async def match_jobs_with_ai(
     # 3. Initialize embeddings
     print("Initializing embeddings...")
     embeddings = GoogleGenerativeAIEmbeddings(
-        model="models/embedding-001", google_api_key=api_key
+        model="models/embedding-001", google_api_key=os.getenv("GOOGLE_GENAI_API_KEY")
     )
 
     # 4. Create vector store from jobs
@@ -318,7 +317,7 @@ async def match_jobs_with_ai(
         # Generate AI reasoning
         try:
             ai_reasoning = generate_ai_match_reasoning(
-                job, artifact_pack, skill_match, api_key
+                job, artifact_pack, skill_match
             )
         except Exception as e:
             ai_reasoning = f"Semantic similarity: {semantic_similarity:.2%}, Skill match: {skill_match_score:.2%}"
